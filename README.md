@@ -6,7 +6,7 @@ BikeShare
 
 ### Description
 Explore data related to bike share systems for three major cities
-and compute statistics based on this data
+and compute statistics based on this data.
 
 ### Files used
 bikeshare.py
