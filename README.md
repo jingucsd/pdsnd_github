@@ -13,4 +13,4 @@ bikeshare.py
 csv files containing data
 
 ### Credits
-udacity
+Udacity data science nanodegree course
