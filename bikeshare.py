@@ -5,6 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+ALL = "all"
 
 def get_filters():
     """
@@ -24,7 +25,7 @@ def get_filters():
     while time_filter.lower() not in ["month", "day", "both", "none"]:
         time_filter = input("Would you like to filter the data by month, day, both or not at all? Type 'none' for no time filter.\n")
     # TO DO: get user input for month (all, january, february, ... , june)
-    month = "all"
+    month = ALL
     if time_filter in ["month", "both"]:
         month = input("Which month - January, February, March, April, May, or June?\n").lower()
         while month not in ["all", "january", "february", "march", "april", "may", "june"]:
